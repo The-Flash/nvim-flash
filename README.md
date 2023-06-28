@@ -10,6 +10,7 @@ Augustine's Neovim dotfiles
 4. Telescope
 5. Autopairs
 6. Autocompletion
+7. Toggleterm
 
 ## Supported Languages
 
@@ -20,11 +21,10 @@ Augustine's Neovim dotfiles
 5. Dart
 6. Yaml
 
-## Installation 
+## Installation
 
 ```sh
 >>> git clone https://github.com/The-Flash/nvim-flash.git
 ```
 
 Move the contents of nvim-flash to "~/.config/nvim"
-
