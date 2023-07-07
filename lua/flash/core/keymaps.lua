@@ -38,3 +38,7 @@ keymap.set("t", "<Esc>", "<C-\\><C-n>")
 
 -- save file
 keymap.set("n", "<leader>sf", ":w<CR>")
+
+-- jump to middle
+keymap.set("n", "<C-d>", "<C-d>zz")
+keymap.set("n", "<C-u>", "<C-u>zz")
