@@ -13,7 +13,11 @@ keymap.set("n", "<leader>+", "<C-a>")
 keymap.set("n", "<leader>-", "<C-x>")
 
 keymap.set("n", "<leader>sv", "<C-w>v") -- split window vertically
-keymap.set("n", "<leader>sh", "<C-w>s") -- split window horizontally
+keymap.set("n", "<leader>sj", "<C-w>j") -- move to window down
+keymap.set("n", "<leader>sk", "<C-w>k") -- move to window up
+keymap.set("n", "<leader>sl", "<C-w>l") -- move to window right
+keymap.set("n", "<leader>sh", "<C-w>h") -- move to window left
+keymap.set("n", "<leader>sc", "<C-w>s") -- split window horizontally
 keymap.set("n", "<leader>se", "<C-w>=") -- make split windows equal width
 keymap.set("n", "<leader>sx", ":close<CR>") -- close current split window
 
@@ -42,3 +46,7 @@ keymap.set("n", "<leader>sf", ":w<CR>")
 -- jump to middle
 keymap.set("n", "<C-d>", "<C-d>zz")
 keymap.set("n", "<C-u>", "<C-u>zz")
+
+-- hop keybindings
+keymap.set("n", "<leader>h1", ":HopChar1<CR>")
+keymap.set("n", "<leader>h2", ":HopChar2<CR>")
