@@ -118,6 +118,9 @@ return packer.startup(function(use)
 			require("hop").setup({ keys = "etovxqpdygfblzhckisuran" })
 		end,
 	})
+
+	-- code folding
+	use({ "kevinhwang91/nvim-ufo", requires = "kevinhwang91/promise-async" })
 	if packer_bootstrap then
 		require("packer").sync()
 	end

@@ -15,6 +15,7 @@ require("flash.plugins.autopairs")
 require("flash.plugins.treesitter")
 require("flash.plugins.gitsigns")
 require("flash.plugins.toggleterm")
+require("flash.plugins.ufo")
 
 vim.cmd([[silent! autocmd! filetypedetect BufRead,BufNewFile *.tf]])
 vim.cmd([[autocmd BufRead,BufNewFile *.hcl set filetype=hcl]])

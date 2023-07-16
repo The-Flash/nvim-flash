@@ -11,6 +11,8 @@ Augustine's Neovim dotfiles
 5. Autopairs
 6. Autocompletion
 7. Toggleterm
+8. Code Folding with ufo
+9. Hop integration
 
 ## Supported Languages
 
