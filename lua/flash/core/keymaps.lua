@@ -48,5 +48,5 @@ keymap.set("n", "<C-d>", "<C-d>zz")
 keymap.set("n", "<C-u>", "<C-u>zz")
 
 -- hop keybindings
-keymap.set("n", "<leader>h1", ":HopChar1<CR>")
-keymap.set("n", "<leader>h2", ":HopChar2<CR>")
+keymap.set("n", "t", ":HopChar1<CR>")
+keymap.set("n", "t2", ":HopChar2<CR>")
